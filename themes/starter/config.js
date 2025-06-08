@@ -10,7 +10,7 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '点亮学生求知路，开启职场新征途', // 英雄区文字
+  STARTER_HERO_TITLE_1: '点亮学生求知路，实习职场新征途', // 英雄区文字
   STARTER_HERO_TITLE_2: '知识滋养，就业保障', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '策划案例查看', // 英雄区按钮
@@ -33,8 +33,8 @@ const CONFIG = {
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: '新氧气特性', // 特性
-  STARTER_FEATURE_TEXT_1: 'NewOxygenit的主要特性', // 特性
+  STARTER_FEATURE_TITLE: '崇远教育', // 特性
+  STARTER_FEATURE_TEXT_1: '崇远教育服务', // 特性
   STARTER_FEATURE_TEXT_2:
     '新氧气的愿景是帮助您提供专业、准确的问题解答和就业指导、解决方案。 ', // 特性
 
@@ -68,43 +68,43 @@ const CONFIG = {
   STARTER_ABOUT_BUTTON_URL: '',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '300+',
+  STARTER_ABOUT_TIPS_1: '500+',
   STARTER_ABOUT_TIPS_2: '学生就业',
   STARTER_ABOUT_TIPS_3: '优质就业',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: true, // 价格区块开关
-  STARTER_PRICING_TITLE: '价格表',
-  STARTER_PRICING_TEXT_1: '很棒的定价计划',
+  STARTER_PRICING_TITLE: '个人规划',
+  STARTER_PRICING_TEXT_1: '很棒的规划方案',
   STARTER_PRICING_TEXT_2:
-    '我们制定了灵活的付费模式，您可以按需选择。',
+    '我们制定了灵活的规划模式，适合各类需求。',
 
   STARTER_PRICING_1_TITLE: '免费方案',
   STARTER_PRICING_1_PRICE: '0',
   STARTER_PRICING_1_PRICE_CURRENCY: '￥',
   STARTER_PRICING_1_PRICE_PERIOD: '单次咨询',
-  STARTER_PRICING_1_HEADER: '功能点',
-  STARTER_PRICING_1_FEATURES: '职业测评,资讯推送,基础咨询', // 英文逗号隔开
+  STARTER_PRICING_1_HEADER: '服务内容',
+  STARTER_PRICING_1_FEATURES: '职业测评,资讯推送,基础咨询,简历分析', // 英文逗号隔开
   STARTER_PRICING_1_BUTTON_TEXT: '联系我们',
   STARTER_PRICING_1_BUTTON_URL:
     '',
 
   STARTER_PRICING_2_TAG: '推荐',
   STARTER_PRICING_2_TITLE: '初级方案',
-  STARTER_PRICING_2_PRICE: '299',
-  STARTER_PRICING_2_PRICE_CURRENCY: '￥',
-  STARTER_PRICING_2_PRICE_PERIOD: '3个月',
-  STARTER_PRICING_2_HEADER: '功能点',
+  STARTER_PRICING_2_PRICE: '咨询客服',
+  STARTER_PRICING_2_PRICE_CURRENCY: ' ',
+  STARTER_PRICING_2_PRICE_PERIOD: '短期计划',
+  STARTER_PRICING_2_HEADER: '服务内容',
   STARTER_PRICING_2_FEATURES: '包含免费方案内容,一对一咨询,简历优化,面试辅导,课程学习', // 英文逗号隔开
   STARTER_PRICING_2_BUTTON_TEXT: '联系我们',
   STARTER_PRICING_2_BUTTON_URL:
     '',
 
   STARTER_PRICING_3_TITLE: '高级方案',
-  STARTER_PRICING_3_PRICE: '2999',
-  STARTER_PRICING_3_PRICE_CURRENCY: '￥',
-  STARTER_PRICING_3_PRICE_PERIOD: '不限',
-  STARTER_PRICING_3_HEADER: '功能点',
+  STARTER_PRICING_3_PRICE: '咨询客服',
+  STARTER_PRICING_3_PRICE_CURRENCY: ' ',
+  STARTER_PRICING_3_PRICE_PERIOD: '全程',
+  STARTER_PRICING_3_HEADER: '服务内容',
   STARTER_PRICING_3_FEATURES: '专属顾问、深度职业规划、定制化培训、内推机会、面试陪练、全面保障', // 英文逗号隔开
   STARTER_PRICING_3_BUTTON_TEXT: '联系我们',
   STARTER_PRICING_3_BUTTON_URL:
@@ -126,7 +126,7 @@ const CONFIG = {
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: '用户',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '新氧气',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '崇远教育',
       STARTER_TESTIMONIALS_ITEM_URL: ''
     },
     {
@@ -135,26 +135,17 @@ const CONFIG = {
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d33d169-f932-41ff-ac6b-88a923c08e02%2F%25E5%25A4%25B4%25E5%2583%258F.jfif?table=collection&id=7787658d-d5c0-4f34-8e32-60c523dfaba3&width=400',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: '用户',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '新氧气',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '崇远教育',
       STARTER_TESTIMONIALS_ITEM_URL: ''
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        '计算机专业毕业季，面对复杂的就业市场，我不知所措。这家机构的就业辅导团队详细分析各企业招聘偏好，为我精准匹配岗位。在毕设辅助方面，导师帮我优化算法设计，提升项目完成度。在他们帮助下，我成功入职一家金融科技公司，从事算法开发工作。( •̀ ω •́ )y ',
+        '这家机构的就业辅导团队详细分析各企业招聘偏好，为我精准匹配岗位。在毕设辅助方面，导师帮我优化算法设计，提升项目完成度。在他们帮助下，我成功入职一家金融科技公司，从事算法开发工作。( •̀ ω •́ )y ',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F6c096b44-beb9-48ee-8f92-1efdde47f3a3%2F338962f1-d352-49c7-9a1b-746e35a7005c%2Fhf.png?table=block&id=ce5a48a9-d77a-4843-a3d9-a78cd4f794ce&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: '用户',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '新氧气',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '崇远教育',
       STARTER_TESTIMONIALS_ITEM_URL: ''
-    },
-    {
-      STARTER_TESTIMONIALS_ITEM_TEXT:
-        '感谢提供这么好的项目哈哈 之前一直不知道怎么部署(别的项目好难好复杂)这个相对非常简单 新手非常友好哦',
-      STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: '迪升disheng ',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'AI资源分享 Blog',
-      STARTER_TESTIMONIALS_ITEM_URL: 'https://blog.disheng.org/'
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
@@ -162,15 +153,15 @@ const CONFIG = {
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fafb21381-f51b-4fd0-9998-800dbeb64dbe%2Favatar.png?table=block&id=195935d2-0d8d-49fc-bd81-1db42ee50840&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: '用户',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '新氧气',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '崇远教育',
       STARTER_TESTIMONIALS_ITEM_URL: ''
     },
     {
-      STARTER_TESTIMONIALS_ITEM_TEXT: '临近毕业，我投出的计算机相关简历大多没有回音。机构的就业辅导老师从简历排版、技术关键词运用等细节入手，对我的简历进行全方位改造。同时，针对面试中的技术问答和场景模拟，进行高强度训练。最终，我成功被一家游戏开发公司录用，负责程序开发，真的多亏了他们的专业指导。',
+      STARTER_TESTIMONIALS_ITEM_TEXT: '临近毕业，我投出的简历大多没有回音。机构的就业辅导老师从简历排版、技术关键词运用等细节入手，对我的简历进行全方位改造。同时，针对面试中的技术问答和场景模拟，进行高强度训练。最终，我成功被一家游戏开发公司录用，负责程序开发，真的多亏了他们的专业指导。',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe4f391d7-7d65-4c05-a82c-c6e2c40f06e4%2Fa2a7641a26b367608c6ef28ce9b7e983_(2).png?table=block&id=a386eb0e-4c07-4b18-9ece-bba4e79ce21c&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: '用户',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '新氧气',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '崇远教育',
       STARTER_TESTIMONIALS_ITEM_URL: ''
     }
   ],
@@ -185,9 +176,9 @@ const CONFIG = {
   STARTER_FAQ_1_ANSWER:
     '我们的服务费用是综合考虑服务内容、市场行情以及为学员创造的价值来定价的。相比同行，我们提供的是高性价比服务。例如在就业辅导中，从简历优化、面试技巧培训到岗位精准匹配，全程多对一指导；毕设辅助涵盖选题策划、技术难题攻克等。我们还会不定期推出优惠活动和奖学金计划，帮助学员减轻经济压力，让更多人能享受到专业服务。',
 
-  STARTER_FAQ_2_QUESTION: '如何保障辅导服务能切实提升我的就业竞争力和毕设质量？',
+  STARTER_FAQ_2_QUESTION: '如何保障辅导服务能切实提升我的就业竞争力和学习质量？',
   STARTER_FAQ_2_ANSWER:
-    '我们采用个性化辅导模式，针对每位学员的基础和目标定制方案。就业辅导中，通过模拟面试、简历优化前后对比等方式直观展现效果；毕设辅助则从开题报告到最终答辩，全程跟踪指导，严格把控每个环节质量。我们还与众多企业建立合作关系，了解最新招聘动态，及时调整辅导内容；同时，过往学员的高就业率和优秀毕设成果就是我们服务效果的有力证明。',
+    '我们采用个性化辅导模式，针对每位学员的基础和目标定制方案。就业辅导中，通过模拟面试、简历优化前后对比等方式直观展现效果；我们还与众多企业建立合作关系，了解最新招聘动态，及时调整辅导内容；同时，过往学员的高就业率和优秀毕设成果就是我们服务效果的有力证明。',
 
   STARTER_FAQ_3_QUESTION: '服务时间是怎样安排的，会不会和我的课程或工作冲突？',
   STARTER_FAQ_3_ANSWER:
@@ -198,7 +189,7 @@ const CONFIG = {
     '我们的服务并非一锤子买卖。服务结束后，我们依然为学员提供售后支持。设立专门的校友交流群，学员可在群内交流经验、探讨问题；对于就业后遇到职场困惑，或是毕设后续改进需求，我们会安排专业老师提供一定期限内的免费咨询服务，帮助学员持续成长，真正做到对学员负责到底。',
 
   // 团队成员区块
-  STARTER_TEAM_ENABLE: true, // 团队成员区块开关
+  STARTER_TEAM_ENABLE: false, // 团队成员区块开关
   STARTER_TEAM_TITLE: '团队成员',
   STARTER_TEAM_TEXT_1: '我们的开发者团队',
   STARTER_TEAM_TEXT_2:
@@ -258,7 +249,7 @@ const CONFIG = {
   //   STARTER_CONTACT_MSG_THANKS: '感谢您的留言',
 
   // 合作伙伴的图标，最上方
-  STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
+  STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
   STARTER_BRANDS: [
     {
       IMAGE: '',
@@ -365,14 +356,14 @@ const CONFIG = {
   STARTER_CTA_TITLE: '你还在等待什么呢？',
   STARTER_CTA_TITLE_2: '现在开始吧',
   STARTER_CTA_DESCRIPTION:
-    '新氧气',
+    '崇远教育',
   STARTER_CTA_BUTTON: true, // 是否显示按钮
   STARTER_CTA_BUTTON_URL:
     '',
   STARTER_CTA_BUTTON_TEXT: '开始体验',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  STARTER_POST_REDIRECT_URL: 'https://www.home.newoxygenit.tech', // 重定向域名
+  STARTER_POST_REDIRECT_URL: 'https://www.career.newoxygenit.tech', // 重定向域名
   STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
