@@ -36,7 +36,7 @@ const CONFIG = {
   STARTER_FEATURE_TITLE: '崇远教育', // 特性
   STARTER_FEATURE_TEXT_1: '崇远教育服务', // 特性
   STARTER_FEATURE_TEXT_2:
-    '新氧气的愿景是帮助您提供专业、准确的问题解答和就业指导、解决方案。 ', // 特性
+    '崇远的愿景是帮助您提供专业、准确的问题解答和就业指导、解决方案。 ', // 特性
 
   STARTER_FEATURE_1_TITLE_1: '专业性', // 特性1
   STARTER_FEATURE_1_TEXT_1: '拥有一支专业的团队，涵盖教育、职业规划、人力资源等多领域的专家，能够为学生提供专业、准确的问题解答和就业指导', // 特性1
